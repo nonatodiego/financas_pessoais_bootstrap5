@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/hover/hover-min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Finanças pessoais</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row row-cols-12">
+            <div class="col-3 min-vh-100 ">
+                <!-- navbar -->
+                <nav class="nav min-vh-100 flex-column navbar-text bg-dark">
+                    <a class="navbar-brand mb-5" href="index.html">
+                        <img class="img-margin" src="imgs/logo.png" alt="logo do site">
+                    </a>
+                    <a class="nav-link navbar-style mt-3 p-3 active" aria-current="page" href="index.html">
+                        <img class="img-margin" src="imgs/icons/home.png" alt="">
+                        Inicio
+                    </a>
+                    <a class="nav-link navbar-style mt-3 p-3" href="#">
+                        <img class="img-margin" src="imgs/icons/buy.png" alt="">
+                        Compras
+                    </a>
+                    <a class="nav-link navbar-style mt-3 p-3" href="#">
+                        <img class="img-margin" src="imgs/icons/Shield.png" alt="">
+                        Segurança
+                    </a>
+                    <a class="nav-link navbar-style mt-3 p-3" href="#">
+                        <img class="img-margin" src="imgs/icons/Activity.png" alt="">
+                        Dicas
+                    </a>
+                    <a class="nav-link navbar-style mt-3 mb-5 p-3" href="#">
+                        <img class="img-margin" src="imgs/icons/Setting.png" alt="">
+                        Configurações
+                    </a>
+                    <a class="nav-link navbar-style mt-5" href="#">
+                        <img class="exit img-margin" src="imgs/icons/Logout.png" alt="">
+                        Sair
+                    </a>
+                </nav>
+            </div>
+            <!-- conteúdo -->
+            <div class="col-6 min-vh-100 content">
+                <div class="container-fluid mt-5">
+                    <!-- header - idiomas e icons -->
+                    <div class="row mb-5">
+                        <div class="col-6">
+                            <div class="col-6">
+                                <select class="form-select" aria-label="Idioma">
+                                    <option selected>Português</option>
+                                    <option value="1" disabled>English</option>
+                                    <option value="2" disabled>Español</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-3 icon">
+                            <img class="icon-bg" src="imgs/icons/Notification.png">
+                        </div>
+                        <div class="col-3 icon">
+                            <img class="icon-bg" src="imgs/icons/question.png">
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-6">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="imgs/banner.png" class="d-block w-100" alt="...">
+                                      </div>                                                                  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="container">
+                                    <div class="row mt-5">
+                                        <div class="text-center col mb-2 hvr-grow">
+                                            <a class="entradas p-4" href="#">
+                                                Entradas
+                                                <img class="m-2" src="imgs/icons/entrada.png" alt="">
+                                            </a>                                        
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="text-center col hvr-grow">
+                                            <a class="entradas p-4" href="#">
+                                                Despesas
+                                                <img class="m-2" src="imgs/icons/despesa.png" alt="">
+                                            </a>                                       
+                                        </div>
+                                    </div>  
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </div>
+            <!-- add cartões -->
+            <div class="col min-vh-100 addCards container">
+                <div class="collapse container" id="collapseExample">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-12 mb-5">
+                                <div class="container mt-5 mb-5">
+                                    <h4>Meu perfil</h4>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6 col-md-3">
+                                            <img class="img-thumbnail rounded-circle " src="imgs/perfil.jpg" alt="">
+                                        </div>
+                                        <div class="col-6 mt-2">
+                                            <p>Neymar Junior</p>
+                                            <p>+21 98281-1499</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Cartões Cadastrados</h4>
+                                    <div class="mt-5">
+                                        <div class="row gap-3">
+                                            <div class="col card-lg hvr-grow">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-6 mt-3">
+                                                            <img class= "img-fluid" src="imgs/icons/card-logo.png" alt="">
+                                                        </div>
+                                                        <div class="col-6 mt-4 text-end">
+                                                            <img class= "img-fluid" src="imgs/icons/check.png" alt="">
+                                                        </div>
+                                                        <div class="container-fluid">
+                                                            <p class="mt-5 text-end fs-6">débito</p>
+                                                        <p class="fs-6">
+                                                            xxxx xxxx 6542
+                                                        </p>
+                                                        </div>                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col card-sm hvr-grow">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-6 mt-3">
+                                                            <img class= "img-fluid" src="imgs/icons/card-logo.png" alt="">
+                                                        </div>                                                       
+                                                        <div class="container-fluid">
+                                                            <p class="mt-5 text-end fs-6">crédito</p>
+                                                        <p class="fs-6">
+                                                            xxxx xxxx 3046
+                                                        </p>
+                                                        </div>                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- btn de adicionar cartao -->
+                <p class="btnAdd mt-5">
+                    <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Adicionar Cartão
+                    </a>
+                </p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
